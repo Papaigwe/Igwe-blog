@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: Kambe-blog
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    repo: https://github.com/Jeanparker100/Kambe-blog
+    branch: main
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: BLOG_PASSWORD
+        value: Kambetoietmoi
