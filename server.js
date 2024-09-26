@@ -4,7 +4,7 @@ const sqlite3 = require('sqlite3').verbose();
 
 const app = express();
 const port = 3000;
-const PASSWORD = 'Kambetoietmoi'; // Le mot de passe pour ajouter un article
+const PASSWORD = 'papaigwe'; // Le mot de passe pour ajouter un article
 
 // Configurer le serveur
 app.use(bodyParser.json());
