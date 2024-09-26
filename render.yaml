@@ -1,14 +1,14 @@
 services:
   - type: web
-    name: Kambe-blog
+    name: igwe-blog
     env: node
     plan: free
     buildCommand: npm install
     startCommand: npm start
-    repo: https://github.com/Jeanparker100/Kambe-blog
+    repo: https://github.com/papaigwe/igwe-blog
     branch: main
     envVars:
       - key: NODE_ENV
         value: production
       - key: BLOG_PASSWORD
-        value: Kambetoietmoi
+        value: papaigwe 
